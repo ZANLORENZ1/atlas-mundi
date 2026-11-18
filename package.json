@@ -1,0 +1,52 @@
+{
+  "name": "atlas-mundi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs dev",
+    "build": "node scripts/dev.mjs build",
+    "start": "node scripts/dev.mjs start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "countries-and-timezones": "^3.11.0",
+    "d3-geo": "^3.1.2",
+    "d3-interpolate": "^3.0.2",
+    "d3-scale": "^4.0.3",
+    "d3-selection": "^3.0.1",
+    "d3-zoom": "^3.0.1",
+    "fast-xml-parser": "^5.12.1",
+    "framer-motion": "^14.14.0",
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-globe.gl": "^2.38.0",
+    "recharts": "^3.10.1",
+    "three": "^0.187.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2",
+    "world-countries": "^5.1.0",
+    "zod": "^4.6.7",
+    "zustand": "^5.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/d3-geo": "^3.1.1",
+    "@types/d3-interpolate": "^3.0.4",
+    "@types/d3-scale": "^4.0.9",
+    "@types/d3-selection": "^3.0.12",
+    "@types/d3-zoom": "^3.0.9",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.187.0",
+    "@types/topojson-client": "^3.1.5",
+    "@types/topojson-specification": "^1.0.5",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5"
+  }
+}
