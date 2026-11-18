@@ -280,13 +280,13 @@ export default function AtlasApp({ initialCode }: { initialCode?: string }) {
           by <span className="font-semibold text-muted">DATAZEN</span>
           <span aria-hidden> · </span>
           <a
-            href="https://www.instagram.com/datazen____/"
+            href="https://www.instagram.com/datazen___/"
             target="_blank"
             rel="noopener noreferrer"
             className="focus-ring tracking-normal hover:text-accent"
-            aria-label="Instagram da DATAZEN: @datazen____"
+            aria-label="Instagram da DATAZEN: @datazen___"
           >
-            @datazen____
+            @datazen___
           </a>
         </p>
         <p className="hidden md:block">Dados: Banco Mundial · Wikidata · Wikipédia · world-countries · Google Notícias</p>
